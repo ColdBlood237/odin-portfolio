@@ -1,1 +1,3 @@
-# odin-portfolio
+# Ryan's portfolio
+
+Built using react
