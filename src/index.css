@@ -13,3 +13,138 @@
   --cod-gray-900: #313131;
   --cod-gray-950: #141414;
 }
+
+body {
+  margin: 0;
+  font-family: Karla;
+  font-size: 24px;
+  color: var(--cod-gray-800);
+}
+
+h2 {
+  font-size: 40px;
+  color: var(--cod-gray-950);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--cod-gray-900);
+  margin: 0;
+}
+
+a {
+  color: var(--cod-gray-950);
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 10vw;
+  margin-bottom: 15vh;
+
+  background: linear-gradient(165deg, var(--cod-gray-100) 50%, transparent 50%);
+}
+
+.profile-pic-container {
+  position: relative;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 30vw;
+  border: 3px solid var(--cod-gray-50);
+}
+
+.my-name {
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  margin: auto;
+}
+
+.presentation {
+  background-color: var(--cod-gray-50);
+  padding: 16px;
+}
+
+.presentation-socials {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.project-screenshot {
+  width: 20vw;
+}
+
+main {
+  padding: 0 10vw;
+  margin-bottom: 15vh;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(
+      200px,
+      1fr
+    );
+  gap: 50px 50px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+
+  background: 1px solid var(--cod-gray-200);
+}
+
+.project-screenshot {
+  width: 100%;
+}
+
+.project-info {
+  padding: 16px;
+
+  background-color: var(--cod-gray-50);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-description {
+  color: var(--cod-gray-700);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 10vw;
+  background-color: var(--cod-gray-100);
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-img {
+  width: 30vw;
+  background: 3px solid var(--cod-gray-50);
+}
+
+.socials a {
+  margin-right: 8px;
+}
