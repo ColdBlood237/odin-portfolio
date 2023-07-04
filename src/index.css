@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --cod-gray-50: #f7f7f7;
+  --cod-gray-100: #e3e3e3;
+  --cod-gray-200: #c8c8c8;
+  --cod-gray-300: #a4a4a4;
+  --cod-gray-400: #818181;
+  --cod-gray-500: #666666;
+  --cod-gray-600: #515151;
+  --cod-gray-700: #434343;
+  --cod-gray-800: #383838;
+  --cod-gray-900: #313131;
+  --cod-gray-950: #141414;
+}
