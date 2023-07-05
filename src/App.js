@@ -59,13 +59,6 @@ function App() {
             liveCodeURL="https://odin-chat-app.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-chat-app"
           />
-          <Project
-            name="Library"
-            description="Real time chat app with authentication built with react and firebase."
-            imgURL={chatAppPic}
-            liveCodeURL="https://odin-chat-app.vercel.app/"
-            repositoryURL="https://github.com/ColdBlood237/odin-chat-app"
-          />
         </div>
       </main>
       <footer>
