@@ -211,3 +211,60 @@ footer {
     gap: 30px 30px;
   }
 }
+
+@media (max-width: 500px) {
+  header {
+    background: linear-gradient(
+      140deg,
+      var(--cod-gray-100) 25%,
+      transparent 25%
+    );
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .profile-pic {
+    max-width: 280px;
+  }
+
+  .presentation-text {
+    display: flex;
+    margin: 0;
+    background: none;
+    gap: 8px;
+  }
+
+  .presentation-text h2 {
+    margin-bottom: 0px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-img {
+    width: 250px;
+  }
+}
