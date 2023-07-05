@@ -8,33 +8,35 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div className="profile-pic-container">
-          <img src={whiteCat} alt="" className="profile-pic" />
-          <h1 className="my-name">Ryan Petnga</h1>
-        </div>
         <div className="presentation">
-          <h2>About me</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            pretium arcu nec tortor efficitur eleifend. Cras dictum malesuada
-            mi, at porta est lobortis non. Mauris sodales bibendum felis, id
-            lacinia dolor laoreet ac. Sed sed nibh elit. In sit amet dui in
-          </p>
-          <div className="presentation-socials">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/ColdBlood237"
-            >
-              <Github />
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/in/ryan-petnga"
-            >
-              <Linkedin />
-            </a>
+          <div className="profile-pic-container">
+            <img src={whiteCat} alt="" className="profile-pic" />
+            <h1 className="my-name">Ryan Petnga</h1>
+          </div>
+          <div className="presentation-text">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              pretium arcu nec tortor efficitur eleifend. Cras dictum malesuada
+              mi, at porta est lobortis non. Mauris sodales bibendum felis, id
+              lacinia dolor laoreet ac. Sed sed nibh elit. In sit amet dui in
+            </p>
+            <div className="presentation-socials">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/ColdBlood237"
+              >
+                <Github />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/ryan-petnga"
+              >
+                <Linkedin />
+              </a>
+            </div>
           </div>
         </div>
       </header>

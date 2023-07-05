@@ -12,6 +12,7 @@
   --cod-gray-800: #383838;
   --cod-gray-900: #313131;
   --cod-gray-950: #141414;
+  --profile-url: url("./images/white-cat.jpg");
 }
 
 body {
@@ -65,8 +66,9 @@ header {
 }
 
 .profile-pic {
-  width: 30vw;
   border: 3px solid var(--cod-gray-50);
+
+  max-width: 528px;
 }
 
 .my-name {
@@ -76,6 +78,11 @@ header {
 }
 
 .presentation {
+  display: flex;
+  align-items: center;
+}
+
+.presentation-text {
   background-color: var(--cod-gray-50);
   padding: 30px 40px;
   display: flex;
@@ -102,17 +109,14 @@ main {
 
 .projects-container {
   display: grid;
-  grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(
-      200px,
-      1fr
-    );
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px 50px;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  width: fit-content;
 
   background: 1px solid var(--cod-gray-200);
 }
@@ -147,7 +151,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 10px;
+  padding: 50px 20px;
   background-color: var(--cod-gray-100);
 }
 
@@ -177,4 +181,33 @@ footer {
 .socials {
   display: flex;
   gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .presentation {
+    display: block;
+  }
+  .presentation-text {
+    display: block;
+    margin-top: 100px;
+    margin-left: 15vw;
+    padding: 15px 20px;
+  }
+  .presentation-text h2 {
+    margin-bottom: 16px;
+  }
+
+  .profile-pic-container {
+    float: left;
+    margin: 0 16px;
+  }
+
+  .profile-pic {
+    max-width: 400px;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 30px;
+  }
 }
