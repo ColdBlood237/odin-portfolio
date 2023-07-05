@@ -28,7 +28,7 @@ function App() {
               <br />
               My other passions are competitive shooter games as they require
               excellent hand-eye coordination, communication and team-work they
-              help me develop my competitiveness and strive on improvement.
+              help me develop my competitiveness and strive for improvement.
             </p>
             <div className="presentation-socials">
               <a
