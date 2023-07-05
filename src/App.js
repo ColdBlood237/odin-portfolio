@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import whiteCat from "./images/white-cat.jpg";
 import blackCat from "./images/black-cat.jpg";
 import projectPic from "./images/coding.jpg";
+import chatAppPic from "./images/chat-app.png";
 
 function App() {
   return (
@@ -16,10 +17,18 @@ function App() {
           <div className="presentation-text">
             <h2>About me</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              pretium arcu nec tortor efficitur eleifend. Cras dictum malesuada
-              mi, at porta est lobortis non. Mauris sodales bibendum felis, id
-              lacinia dolor laoreet ac. Sed sed nibh elit. In sit amet dui in
+              Hi ! I'm Ryan, a self-taught web developer.
+              <br />
+              <br />
+              Growing up, I always had an affinity for everything tech related.
+              Jailbreaking my first iPod, installing custom ROMs on my android
+              phones or modding my gaming consoles were some of the things that
+              developed my problem solving skills.
+              <br />
+              <br />
+              My other passions are competitive shooter games as they require
+              excellent hand-eye coordination, communication and team-work they
+              help me develop my competitiveness and strive on improvement.
             </p>
             <div className="presentation-socials">
               <a
@@ -44,34 +53,10 @@ function App() {
         <h2>My work</h2>
         <div className="projects-container">
           <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
-          />
-          <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
-          />
-          <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
-          />
-          <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
-          />
-          <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
-          />
-          <Project
-            name="Project name"
-            description="Short description of the project. Just a couple sentences will do."
-            imgURL={projectPic}
+            name="Chat app"
+            description="Real time chat app with authentication built with react and firebase."
+            imgURL={chatAppPic}
+            liveCodeURL="https://odin-chat-app.vercel.app/"
           />
         </div>
       </main>
