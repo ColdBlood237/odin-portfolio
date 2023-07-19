@@ -4,6 +4,7 @@ import whiteCat from "./images/white-cat.jpg";
 import blackCat from "./images/black-cat.jpg";
 import projectPic from "./images/coding.jpg";
 import chatAppPic from "./images/chat-app.png";
+import inventoryAppPic from "./images/inventory-app.png";
 
 function App() {
   return (
@@ -58,6 +59,13 @@ function App() {
             imgURL={chatAppPic}
             liveCodeURL="https://odin-chat-app.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-chat-app"
+          />
+          <Project
+            name="Inventory app"
+            description="Public inventory app, made with MongoDB, Express, Node and Tailwind."
+            imgURL={inventoryAppPic}
+            liveCodeURL="https://gold-sore-chameleon.cyclic.app/inventory/"
+            repositoryURL="https://github.com/ColdBlood237/odin-inventory"
           />
         </div>
       </main>
