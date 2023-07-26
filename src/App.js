@@ -74,7 +74,7 @@ function App() {
             name="Members Only"
             description="Only members can see who sent the message and when, made with MongoDB, Express, Node, Passportjs and Tailwind."
             imgURL={membersOnlyPic}
-            liveCodeURL="https://ryan-odin-members-only.cyclic.app/"
+            liveCodeURL="https://odin-members-only-bbyd.onrender.com/"
             repositoryURL="https://github.com/ColdBlood237/odin-members-only"
           />
         </div>
