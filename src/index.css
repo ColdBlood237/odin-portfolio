@@ -176,7 +176,7 @@ footer {
 
 .footer-img {
   width: 30vw;
-  background: 3px solid var(--cod-gray-50);
+  border: 3px solid var(--cod-gray-50);
 }
 
 .socials {
