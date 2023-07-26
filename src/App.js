@@ -1,10 +1,13 @@
 import Project from "./Project";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import whiteCat from "./images/white-cat.jpg";
+import catOnMac from "./images/cat-on-mac.webp";
 import blackCat from "./images/black-cat.jpg";
 import projectPic from "./images/coding.jpg";
 import chatAppPic from "./images/chat-app.png";
+import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
+import membersOnlyPic from "./images/members-only.png";
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
       <header>
         <div className="presentation">
           <div className="profile-pic-container">
-            <img src={whiteCat} alt="" className="profile-pic" />
+            <img src={catOnMac} alt="" className="profile-pic" />
             <h1 className="my-name">Ryan Petnga</h1>
           </div>
           <div className="presentation-text">
@@ -67,6 +70,13 @@ function App() {
             liveCodeURL="https://gold-sore-chameleon.cyclic.app/inventory/"
             repositoryURL="https://github.com/ColdBlood237/odin-inventory"
           />
+          <Project
+            name="Members Only"
+            description="Only members can see who sent the message and when, made with MongoDB, Express, Node, Passportjs and Tailwind."
+            imgURL={membersOnlyPic}
+            liveCodeURL="https://ryan-odin-members-only.cyclic.app/"
+            repositoryURL="https://github.com/ColdBlood237/odin-members-only"
+          />
         </div>
       </main>
       <footer>
@@ -109,7 +119,7 @@ function App() {
             </a>
           </div>
         </div>
-        <img src={whiteCat} alt="" className="footer-img" />
+        <img src={whiteCatCoding} alt="" className="footer-img" />
       </footer>
     </div>
   );
