@@ -8,6 +8,7 @@ import chatAppPic from "./images/chat-app.png";
 import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
 import membersOnlyPic from "./images/members-only.png";
+import blogAPIPic from "./images/blog-api.png";
 
 function App() {
   return (
@@ -76,6 +77,13 @@ function App() {
             imgURL={membersOnlyPic}
             liveCodeURL="https://odin-members-only-bbyd.onrender.com/"
             repositoryURL="https://github.com/ColdBlood237/odin-members-only"
+          />
+          <Project
+            name="Blog API"
+            description="MERN stack blog app, with RESTful API in the backend"
+            imgURL={blogAPIPic}
+            liveCodeURL="https://odin-blog-api-client.onrender.com/"
+            repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
           />
         </div>
       </main>
