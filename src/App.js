@@ -80,9 +80,9 @@ function App() {
           />
           <Project
             name="Blog API"
-            description="MERN stack blog app, with RESTful API in the backend"
+            description="MERN stack blog app, with RESTful API in the backend."
             imgURL={blogAPIPic}
-            liveCodeURL="https://odin-blog-api-client.onrender.com/"
+            liveCodeURL="https://odin-blog-api-client.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
           />
         </div>
