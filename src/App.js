@@ -94,7 +94,7 @@ function App() {
             Please get in touch if you think my work could be mutually
             beneficial!
           </p>
-          <p className="address">Via Anna Frank, 17, 10072 Mappano TO, Italy</p>
+          <p className="address">10079 Mappano TO, Italy</p>
           <div className="contacts">
             <p className="phone">
               <Phone /> +39 389 994 8706
