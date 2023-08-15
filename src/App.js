@@ -9,6 +9,7 @@ import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
 import membersOnlyPic from "./images/members-only.png";
 import blogAPIPic from "./images/blog-api.png";
+import vueTodoPic from "./images/vue-todo-app.png";
 
 function App() {
   return (
@@ -84,6 +85,13 @@ function App() {
             imgURL={blogAPIPic}
             liveCodeURL="https://odin-blog-api-client.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
+          />
+          <Project
+            name="TODO app"
+            description="Very basic todo list app created with Vue and Vuetify that stores the data in the local storage."
+            imgURL={vueTodoPic}
+            liveCodeURL="https://vue-todo-app-eta-sable.vercel.app/"
+            repositoryURL="https://github.com/ColdBlood237/vue-todo-app"
           />
         </div>
       </main>
