@@ -1,5 +1,7 @@
-import Project from "./Project";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+
+import Project from "./Project";
+
 import whiteCat from "./images/white-cat.jpg";
 import catOnMac from "./images/cat-on-mac.webp";
 import blackCat from "./images/black-cat.jpg";
