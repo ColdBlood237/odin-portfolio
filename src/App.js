@@ -2,16 +2,14 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 import Project from "./Project";
 
-import whiteCat from "./images/white-cat.jpg";
 import catOnMac from "./images/cat-on-mac.webp";
-import blackCat from "./images/black-cat.jpg";
-import projectPic from "./images/coding.jpg";
 import chatAppPic from "./images/chat-app.png";
 import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
 import membersOnlyPic from "./images/members-only.png";
 import blogAPIPic from "./images/blog-api.png";
 import vueTodoPic from "./images/vue-todo-app.png";
+import ryanPic from "./images/ryan.jpg";
 
 function App() {
   return (
@@ -19,7 +17,7 @@ function App() {
       <header>
         <div className="presentation">
           <div className="profile-pic-container">
-            <img src={catOnMac} alt="" className="profile-pic" />
+            <img src={ryanPic} alt="" className="profile-pic" />
             <h1 className="my-name">Ryan Petnga</h1>
           </div>
           <div className="presentation-text">
@@ -89,7 +87,7 @@ function App() {
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
           />
           <Project
-            name="TODO app"
+            name="Markdown notes"
             description="Very basic todo list app created with Vue and Vuetify that stores the data in the local storage."
             imgURL={vueTodoPic}
             liveCodeURL="https://vue-todo-app-eta-sable.vercel.app/"
