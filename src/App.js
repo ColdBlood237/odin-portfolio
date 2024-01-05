@@ -87,7 +87,7 @@ function App() {
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
           />
           <Project
-            name="Markdown notes"
+            name="TODO app"
             description="Very basic todo list app created with Vue and Vuetify that stores the data in the local storage."
             imgURL={vueTodoPic}
             liveCodeURL="https://vue-todo-app-eta-sable.vercel.app/"
