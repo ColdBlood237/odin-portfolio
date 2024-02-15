@@ -11,9 +11,11 @@ function Project({ name, description, imgURL, liveCodeURL, repositoryURL }) {
             <a target="_blank" rel="noreferrer" href={repositoryURL}>
               <Github />
             </a>
-            <a target="_blank" rel="noreferrer" href={liveCodeURL}>
-              <ExternalLink />
-            </a>
+            {liveCodeURL != null && (
+              <a target="_blank" rel="noreferrer" href={liveCodeURL}>
+                <ExternalLink />
+              </a>
+            )}
           </div>
         </div>
         <p className="project-description">{description}</p>

@@ -9,6 +9,7 @@ import inventoryAppPic from "./images/inventory-app.png";
 import membersOnlyPic from "./images/members-only.png";
 import blogAPIPic from "./images/blog-api.png";
 import vueTodoPic from "./images/vue-todo-app.png";
+import freshappPic from "./images/freshapp.png";
 import ryanPic from "./images/ryan.jpg";
 
 function App() {
@@ -85,6 +86,12 @@ function App() {
             imgURL={blogAPIPic}
             liveCodeURL="https://odin-blog-api-client.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
+          />
+          <Project
+            name="FreshApp"
+            description="Twitter-like social media web app built with Hibernate/JPA, JSP and MySQL database for storage."
+            imgURL={freshappPic}
+            repositoryURL="https://github.com/ColdBlood237/FreshApp"
           />
           <Project
             name="TODO app"
