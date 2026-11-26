@@ -8,8 +8,8 @@ import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
 import membersOnlyPic from "./images/members-only.png";
 import blogAPIPic from "./images/blog-api.png";
-import vueTodoPic from "./images/vue-todo-app.png";
-import freshappPic from "./images/freshapp.png";
+import openpilotPic from "./images/openpilot-b10.png";
+import starpilotPic from "./images/starpilot-b10.png";
 import ryanPic from "./images/ryan.jpg";
 
 function App() {
@@ -60,6 +60,18 @@ function App() {
         <h2>My work</h2>
         <div className="projects-container">
           <Project
+            name="openpilot port: Leapmotor B10"
+            description="Adds the Leapmotor B10 to openpilot, comma.ai's open-source driver-assistance system: reverse-engineered CAN FD network and DBC, angle-based lane-keeping in Python, and panda safety code in C (MISRA C, 100% line coverage)."
+            imgURL={openpilotPic}
+            repositoryURL="https://github.com/commaai/opendbc/pull/3936"
+          />
+          <Project
+            name="StarPilot port: Leapmotor B10"
+            description="The same port for StarPilot, an openpilot fork, plus speed control (alpha longitudinal) with safety limits, driven daily and tuned with Python drive-log analysis tools."
+            imgURL={starpilotPic}
+            repositoryURL="https://github.com/StarPilotHQ/StarPilot/pull/309"
+          />
+          <Project
             name="Chat app"
             description="Real time chat app with authentication built with react and firebase."
             imgURL={chatAppPic}
@@ -86,19 +98,6 @@ function App() {
             imgURL={blogAPIPic}
             liveCodeURL="https://odin-blog-api-client.vercel.app/"
             repositoryURL="https://github.com/ColdBlood237/odin-blog-api"
-          />
-          <Project
-            name="FreshApp"
-            description="Twitter-like social media web app built with Hibernate/JPA, JSP and MySQL database for storage."
-            imgURL={freshappPic}
-            repositoryURL="https://github.com/ColdBlood237/FreshApp"
-          />
-          <Project
-            name="TODO app"
-            description="Very basic todo list app created with Vue and Vuetify that stores the data in the local storage."
-            imgURL={vueTodoPic}
-            liveCodeURL="https://vue-todo-app-eta-sable.vercel.app/"
-            repositoryURL="https://github.com/ColdBlood237/vue-todo-app"
           />
         </div>
       </main>
