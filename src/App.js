@@ -60,13 +60,13 @@ function App() {
         <div className="projects-container">
           <Project
             name="openpilot port: Leapmotor B10"
-            description="Adds the Leapmotor B10 to openpilot, comma.ai's open-source driver-assistance system: reverse-engineered CAN FD network and DBC, angle-based lane-keeping in Python, and panda safety code in C (MISRA C, 100% line coverage)."
+            description="Adds the Leapmotor B10 to openpilot, comma.ai's open-source driver-assistance system: reverse-engineered CAN FD network and DBC, angle-based lane-keeping in Python, and panda safety code in C (MISRA C, 100% line coverage). Built mostly with Claude (AI), directed and road-tested by me."
             imgURL={openpilotPic}
             repositoryURL="https://github.com/commaai/opendbc/pull/3936"
           />
           <Project
             name="StarPilot port: Leapmotor B10"
-            description="The same port for StarPilot, an openpilot fork, plus speed control (alpha longitudinal) with safety limits, driven daily and tuned with Python drive-log analysis tools."
+            description="The same port for StarPilot, an openpilot fork, plus speed control (alpha longitudinal) with safety limits, driven daily and tuned with Python drive-log analysis tools. Built mostly with Claude (AI), directed and road-tested by me."
             imgURL={starpilotPic}
             repositoryURL="https://github.com/StarPilotHQ/StarPilot/pull/309"
           />
