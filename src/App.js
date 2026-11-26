@@ -23,13 +23,16 @@ function App() {
           <div className="presentation-text">
             <h2>About me</h2>
             <p>
-              Hi ! I'm Ryan, a self-taught web developer.
+              Hi ! I'm Ryan, a full-stack software developer with 2+ years of
+              experience building web applications for clients, now training in
+              networking and cybersecurity (Cisco CCNA, CyberOps Associate).
               <br />
               <br />
               Growing up, I always had an affinity for everything tech related.
               Jailbreaking my first iPod, installing custom ROMs on my android
               phones or modding my gaming consoles were some of the things that
-              developed my problem solving skills.
+              developed my problem solving skills. That same curiosity led me to
+              reverse-engineer my car's network and bring openpilot to it.
               <br />
               <br />
               My other passions are competitive shooter games as they require
