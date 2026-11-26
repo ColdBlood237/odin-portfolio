@@ -2,7 +2,6 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 import Project from "./Project";
 
-import catOnMac from "./images/cat-on-mac.webp";
 import chatAppPic from "./images/chat-app.png";
 import whiteCatCoding from "./images/white-cat-coding.jpg";
 import inventoryAppPic from "./images/inventory-app.png";
